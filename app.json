@@ -9,11 +9,16 @@
   "website": "https://nilsonlinux.github.io/",
   "repository": "https://github.com/nilsonlinux/herolu-test",
   "logo": "https://avatars.githubusercontent.com/u/22534130?v=4g",
-  "env": {
+"env": {
     "BOT_TOKEN": {
       "description": "Bot token",
       "required": true
+    },
+    }
   },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
     }
   ]
 }
