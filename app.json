@@ -14,6 +14,15 @@
       "description": "Bot token",
       "required": true
     },
+    "DB_TUR": {
+      "description": "db or json",
+      "value": "db",
+      "required": false
+    },
+    "ADMIN_ID": {
+      "description": "admin id",
+      "value": "452321614",
+      "required": false
     }
   },
   "addons": [
