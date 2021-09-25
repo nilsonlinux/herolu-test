@@ -3,10 +3,6 @@
     "BOT_TOKEN": {
       "description": "A secret key for verifying the integrity of signed cookies.",
       "required": true
-    },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
     }
   }
 }
