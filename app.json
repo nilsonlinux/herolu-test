@@ -10,33 +10,10 @@
   "repository": "https://github.com/nilsonlinux/herolu-test",
   "logo": "https://avatars.githubusercontent.com/u/22534130?v=4g",
   "env": {
-    "API_ID": {
+    "BOT_TOKEN": {
             "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
             "required": true
     },
-    "API_HASH": {
-            "description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
-            "required": true
-    },
-    "SESSION": {
-            "description": "Session string, read the README to learn how to export it with Pyrogram",
-            "required": true
-    },
-    "ADMIN": {
-            "description": "Your user ID, who can control the userbot",
-            "required": true
-    },
-    "CHAT_NAME": {
-            "description": "The channel/group username where to stream radio (without @)",
-            "required": true
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "heroku/python"
     }
   ]
 }
