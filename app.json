@@ -13,4 +13,7 @@
     "BOT_TOKEN": {
             "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
             "required": true
+      }
+    }
+  ]
 }
